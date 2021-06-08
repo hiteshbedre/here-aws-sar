@@ -20,7 +20,8 @@
 // Reference document for HERE API
 
 // https://developer.here.com/documentation/geocoding-search-api/dev_guide/index.html
-
+geo_code = "123"
+firstname = ""
 'use strict';
 const axios = require("axios");
 const HERE_API_KEY = process.env.HERE_API_KEY;
