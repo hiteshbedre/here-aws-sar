@@ -48,7 +48,8 @@ exports.geocodesuggestGET = async (event, context) => {
     console.log(`>>> url: ${url}`);
 
     const hlsAPIResponse = await getData(url);
-
+    street_name = "abc";
+    first_name = "f"
     const response = {
         statusCode: statusCode,
         // headers: { 'Access-Control-Allow-Origin': '*' },
