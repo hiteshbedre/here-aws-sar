@@ -40,7 +40,8 @@ const getData = async url => {
 
 exports.geocodeGET = async (event, context) => {
     console.log(`>>> HERE_API_KEY: ${HERE_API_KEY}`);
-
+    street_name = "133";
+    geo_code = "123";
     let args = "";
     for (let qsp in event.queryStringParameters) {
         let qsa = "&" + qsp + "=" + event['queryStringParameters'][qsp]
