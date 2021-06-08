@@ -37,7 +37,7 @@ const getData = async url => {
         return error;
     }
 };
-
+firstname = ""
 exports.geocodeGET = async (event, context) => {
     console.log(`>>> HERE_API_KEY: ${HERE_API_KEY}`);
 
