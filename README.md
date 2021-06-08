@@ -23,7 +23,7 @@ To successfully call the HERE Maps APIs through the proxies in this project you 
 * [Weather](https://developer.here.com/documentation/weather/topics/overview.html)
 
 
-### Setup
+### Setupq
 
 * #### Step 1: Register for an API Key
 
